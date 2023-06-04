@@ -3,13 +3,18 @@
 
 #Visual Studio
 .vs
+*.bak
+privateGPT.pyproj
+
+# Documents
+source_documents/*
 
 # Models
-models/
+models/*
 
 # Local Chroma db
 .chroma/
-db/
+db/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
